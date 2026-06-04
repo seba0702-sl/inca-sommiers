@@ -147,7 +147,9 @@ export default function Header({
   <a href="#about">
     Nosotros
   </a>
-
+    <a href="#beneficios">
+    Beneficios
+  </a>
   <a href="#branches">
     Sucursal
   </a>

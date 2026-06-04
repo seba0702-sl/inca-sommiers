@@ -3,6 +3,7 @@
 import Header from "../components/Header/Header"
 import Hero from "../components/Hero/Hero"
 import Brands from "../components/Brands/Brands"
+import Beneficios from "../components/Beneficios/Beneficios"
 import Categories from "../components/Categories/Categories"
 import Catalog from "../components/Catalog/Catalog"
 import About from "../components/About/About"
@@ -25,6 +26,7 @@ export default function Home() {
       <Hero />
       <About />
       <Brands />
+      <Beneficios />
       <Categories />
 
       <Catalog
