@@ -63,7 +63,18 @@ export default function Header({
 >
   Suavestar
 </a>
-
+<a
+  href="#colchones"
+  onClick={() => setBrandFilter("Suavegom")}
+>
+  Suavegom
+</a>
+<a
+  href="#colchones"
+  onClick={() => setBrandFilter("Piero")}
+>
+  Piero
+</a>
 <a
   href="#colchones"
   onClick={() => setBrandFilter("all")}

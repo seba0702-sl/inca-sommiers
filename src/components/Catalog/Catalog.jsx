@@ -65,8 +65,10 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
     { label: "Todas las marcas", value: "all" },
     { label: "Cannon", value: "Cannon" },
     { label: "Deseo", value: "Deseo" },
+    { label: "Gani", value: "Gani" },
     { label: "Suavestar", value: "Suavestar" },
-    { label: "Gani", value: "Gani" }
+    { label: "Suavegom", value: "Suavegom" },
+    { label: "Piero", value: "Piero" },
   ]}
 />
 

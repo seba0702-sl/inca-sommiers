@@ -53,7 +53,7 @@ export const almohadas = [
     sku: "ALM006",
     logo: "/images/marcas/FiberBall.png",
     name: "FiberBall Almohada con Núcleo",
-    description: "Tela percal 200 hilos, 70 x 45 cms",
+    description: "Microfibra con faja y bordado de espuma Hiper-Soft, 70 x 45 cms",
     image: "/images/almohadas/EVOL NATURIS.png"
   },
    {

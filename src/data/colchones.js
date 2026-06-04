@@ -263,9 +263,58 @@ export const colchones = [
 
   },
 
-  //Suavestar
+  //Suavegom
   {
     id: 17,
+    brand: "Suavegom",
+    model: "Merit",
+    logo: "/images/marcas/SuavegomLog.png",
+    description: "Buen precio, Buen colchón",
+    type:"Espuma",
+    sizes: [
+      "Todas las medidas",
+    ],
+
+    image: "/images/colchones/Suavegom/SuaMerit.png",
+
+        pdf: "/pdf/Suavegom/Merit.pdf"
+
+  },
+  {
+    id: 18,
+    brand: "Suavegom",
+    model: "Merit Pillow Top",
+    logo: "/images/marcas/SuavegomLog.png",
+    description: "Buen precio, Buen colchón",
+    type:"Espuma",
+    sizes: [
+      "Todas las medidas",
+    ],
+
+    image: "/images/colchones/Suavegom/SuaMeritPT.png",
+
+        pdf: "/pdf/Suavegom/MeritPT.pdf"
+
+  },
+  {
+    id: 19,
+    brand: "Suavegom",
+    model: "Splendid",
+    logo: "/images/marcas/SuavegomLog.png",
+    description: "Resortes bicónicos",
+    type:"Resortes",
+    sizes: [
+      "Todas las medidas",
+    ],
+
+    image: "/images/colchones/Suavegom/SuaEsplendid.png",
+
+        pdf: "/pdf/Suavegom/Esplendid.pdf"
+
+  },
+  //Suavestar
+  {
+    id: 30,
     brand: "Suavestar",
     logo: "/images/marcas/suavestar.png",
     model: "Insignia",

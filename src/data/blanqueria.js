@@ -21,13 +21,7 @@ export const blanqueria = [
     description: "Algodón 100%",
     image: "/images/decor/baño/toallones.png"
   },
-  {
-    id: 4,
-    name: "Juego de Batas Premium",
-    category: "baño",
-    description: "Algodón 100%",
-    image: "/images/decor/baño/batas.png"
-  },
+  
   {
     id: 5,
     name: "FiberBall Cubre colchon",
