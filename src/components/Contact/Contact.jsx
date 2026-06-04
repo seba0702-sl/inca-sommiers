@@ -46,7 +46,7 @@ ${form.consulta}
           Contactanos
         </h2>
         <p className="contact-subtitle">
-          Consultanos por colchones, sommiers, almohadaS, blanqueria y accesorios.
+          Consultanos por colchones, sommiers, almohadas, blanqueria y accesorios.
         </p>
         <form
           className="contact-form"
