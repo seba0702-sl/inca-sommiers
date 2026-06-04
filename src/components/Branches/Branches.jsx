@@ -2,7 +2,7 @@ import "./Branches.css"
 
 export default function Branches() {
   return (
-    <section className="branches" id="sucursales">
+    <section className="branches" id="branches">
 
       <div className="container">
 
