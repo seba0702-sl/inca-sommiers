@@ -136,7 +136,7 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
 
         {/* ALMOHADAS */}
 
-        <h2 className="section-title">
+        <h2 id="almohadas" className="section-title">
           Almohadas
         </h2>
 
@@ -151,7 +151,7 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
 
         {/* OTROS */}
 
-        <h2 className="section-title">
+        <h2 id="otros" className="section-title">
           Otros Productos
         </h2>
 
