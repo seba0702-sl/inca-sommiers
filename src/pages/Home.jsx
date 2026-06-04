@@ -22,7 +22,7 @@ export default function Home() {
       <Header setBrandFilter={setBrandFilter} />
 
       <Hero />
-
+      <About />
       <Categories />
 
       <Catalog
@@ -30,7 +30,7 @@ export default function Home() {
         setBrandFilter={setBrandFilter}
       />
 
-      <About />
+      
       <Branches />
       <Location />
       <Contact />

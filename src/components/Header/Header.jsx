@@ -80,15 +80,7 @@ export default function Header({
         <h4>Almohadas</h4>
 
         <a href="#almohadas">
-          Viscoelásticas
-        </a>
-
-        <a href="#almohadas">
-          Cervicales
-        </a>
-
-        <a href="#almohadas">
-          Memory Foam
+          Almohadas
         </a>
 
       </div>

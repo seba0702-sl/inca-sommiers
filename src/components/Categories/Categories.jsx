@@ -21,7 +21,7 @@ export default function Categories() {
     {
       title: "Accesorios",
       image: "/images/cat-accesorios.jpeg",
-      link: "#accesorios"
+      link: "#otros"
     }
   ]
 

@@ -19,25 +19,25 @@ export default function Footer() {
           <ul>
 
             <li>
-              <a href="#categories">
+              <a href="#colchones">
                 Colchones
               </a>
             </li>
 
             <li>
-              <a href="#categories">
+              <a href="#blanqueria">
                 Blanqueria
               </a>
             </li>
 
             <li>
-              <a href="#categories">
+              <a href="#almohadas">
                 Almohadas
               </a>
             </li>
 
             <li>
-              <a href="#categories">
+              <a id="otros" href="#otros">
                 Otros Productos
               </a>
             </li>
@@ -57,7 +57,7 @@ export default function Footer() {
           </p>
 
           <p>
-            Colchones, sommiers, almohadas, blanqueria y accesorios para toda la familia.
+            Colchones, sommiers, almohadas, blanqueria, respaldos de cama y accesorios para toda la familia.
           </p>
 
         </div>
