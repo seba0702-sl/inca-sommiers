@@ -1,0 +1,133 @@
+.contact{
+  background:#b9cfdc;
+  padding:80px 0;
+}
+
+.contact .section-title{
+  text-align:center;
+  margin-bottom:15px;
+}
+
+.contact-subtitle{
+  text-align:center;
+  color:#666;
+  margin-bottom:40px;
+}
+
+.contact-form{
+  max-width:700px;
+  margin:auto;
+
+  background:rgba(60, 70, 133, 0.567);
+
+  padding:40px;
+
+  border-radius:20px;
+
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+  display:flex;
+  flex-direction:column;
+
+  gap:18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+
+  padding:16px 18px;
+
+  border:1px solid #ddd;
+
+  border-radius:12px;
+
+  font-size:1rem;
+
+  transition:.3s;
+
+  font-family:inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+  outline:none;
+
+  border-color:#25D366;
+
+  box-shadow:0 0 0 3px rgba(37,211,102,.15);
+}
+
+.contact-form textarea{
+  resize:vertical;
+  min-height:140px;
+}
+
+.contact-form button{
+  background:#25D366;
+
+  color:white;
+
+  padding:16px;
+
+  border:none;
+
+  border-radius:12px;
+
+  font-size:1rem;
+
+  font-weight:600;
+
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.contact-form button:hover{
+  transform:translateY(-2px);
+}
+
+/* TABLET */
+
+@media(max-width:992px){
+
+  .contact{
+    padding:60px 0;
+  }
+
+}
+
+/* CELULAR */
+
+@media(max-width:768px){
+
+  .contact{
+    padding:50px 0;
+  }
+
+  .contact-form{
+    padding:25px;
+    border-radius:15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea{
+    padding:14px;
+    font-size:.95rem;
+  }
+
+  .contact-form button{
+    padding:14px;
+  }
+
+}
+
+/* CELULAR PEQUEÑO */
+
+@media(max-width:480px){
+
+  .contact-form{
+    padding:20px;
+  }
+
+}
