@@ -100,6 +100,7 @@ export default function Footer() {
               Email
             </a>
           </p>
+          <p>Telefono fijo: 49588109</p>
 
         </div>
 
