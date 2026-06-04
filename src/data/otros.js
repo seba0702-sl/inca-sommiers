@@ -34,4 +34,36 @@ export const otros = [
     description: "Todo para mejorar postura de Columna, cuello y piernas.",
     image: "/images/otros/ErgoRod.png"
   },
+  {
+    id: 5,
+    category: "otros",
+    sku: "ACC005",
+    name: "Respaldo Capitone",
+    description: "Elegancia clásica con terminación capitone que aporta distinción y confort a tu dormitorio.",
+    image: "/images/otros/ResCap.jpg"
+  },
+  {
+    id: 6,
+    category: "otros",
+    sku: "ACC006",
+    name: "Respaldo Canelon",
+    description: "Líneas verticales modernas que brindan textura, amplitud visual y un acabado contemporáneo.",
+    image: "/images/otros/ResCanelon.jpeg"
+  },
+  {
+    id: 7,
+    category: "otros",
+    sku: "ACC007",
+    name: "Respaldo Liso",
+    description: "Diseño moderno y minimalista, ideal para combinar con cualquier estilo de decoración.",
+    image: "/images/otros/ResCLiso.jpg"
+  },
+  {
+    id: 8,
+    category: "otros",
+    sku: "ACC008",
+    name: "Respaldo Botones",
+    description: "Estilo sofisticado con detalles de botones que realzan la presencia de la cama.",
+    image: "/images/otros/ResCBoton.jpg"
+  },
 ]
