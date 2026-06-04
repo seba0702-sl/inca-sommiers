@@ -13,7 +13,7 @@ export const otros = [
     id: 2,
     category: "otros",
     sku: "ACC002",
-    name: "Asintos Ergo",
+    name: "Asientos Ergo",
     description: "Todo para mejorar postura y descansar bien.",
     image: "/images/otros/asientoErgo.png"
   },
@@ -27,9 +27,9 @@ export const otros = [
     image: "/images/otros/separadorRod.png"
   },
 {
-    id: 3,
+    id: 4,
     category: "otros",
-    sku: "ACC003",
+    sku: "ACC004",
     name: "Ergo Rodillo",
     description: "Todo para mejorar postura de Columna, cuello y piernas.",
     image: "/images/otros/ErgoRod.png"
