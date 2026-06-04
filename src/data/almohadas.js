@@ -65,5 +65,40 @@ export const almohadas = [
     description: "Almohadón multipropósito, ideal para lectura, descanso, desayuno",
     image: "/images/almohadas/TRICOMODIN.png"
   },
-
+  {
+    id: 8,
+    category: "almohadas",
+    sku: "ALM008",
+    logo: "/images/marcas/BedyCo.png",
+    name: "Grand Hotel Pillow",
+    description: "Vellon Siliconada",
+    image: "/images/almohadas/ByCGrand.png"
+  },
+  {
+    id: 9,
+    category: "almohadas",
+    sku: "ALM009",
+    logo: "/images/marcas/BedyCo.png",
+    name: "Bed&Co Hotel ",
+    description: "Almohada Viscoelatica, Medida: 40cm x 65cm",
+    image: "/images/almohadas/ByCHotel.png"
+  },
+  {
+    id: 10,
+    category: "almohadas",
+    sku: "ALM010",
+    logo: "/images/marcas/BedyCo.png",
+    name: "Bed&Co Hiper Soft ",
+    description: "Almohada espuma",
+    image: "/images/almohadas/ByCHiper.png"
+  },
+{
+    id: 11,
+    category: "almohadas",
+    sku: "ALM011",
+    logo: "/images/marcas/BedyCo.png",
+    name: "Bed&Co Hilton  ",
+    description: "Fibra Virgen Siliconada + Suavidad",
+    image: "/images/almohadas/ByCHilton.jpeg"
+}
 ]
