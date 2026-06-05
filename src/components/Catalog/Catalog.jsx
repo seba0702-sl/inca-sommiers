@@ -173,16 +173,6 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
             { label: "Comedor", value: "comedor" }
           ]}
         />
-
-        <div className="catalog-grid">
-          {blanqueriaPage.map(product => (
-            <ProductCard
-              key={`${product.id}-${product.image}`}
-              product={product}
-            />
-          ))}
-
-        </div>
         <div className="pagination">
           {[...Array(totalPagesBlanqueria)].map((_, index) => (
             <button
@@ -194,14 +184,8 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
             </button>
           ))}
         </div>
-        {/* ALMOHADAS */}
-
-        <h2 id="almohadas" className="section-title">
-          Almohadas
-        </h2>
-
         <div className="catalog-grid">
-          {almohadasPage.map(product => (
+          {blanqueriaPage.map(product => (
             <ProductCard
               key={`${product.id}-${product.image}`}
               product={product}
@@ -209,7 +193,13 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
           ))}
 
         </div>
-        <div className="pagination">
+        
+        {/* ALMOHADAS */}
+
+        <h2 id="almohadas" className="section-title">
+          Almohadas
+        </h2>
+          <div className="pagination">
           {[...Array(totalPagesAlmohadas)].map((_, index) => (
             <button
               key={index}
@@ -220,14 +210,8 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
             </button>
           ))}
         </div>
-        {/* OTROS */}
-
-        <h2 id="otros" className="section-title">
-          Otros Productos
-        </h2>
-
         <div className="catalog-grid">
-          {otrosPage.map(product => (
+          {almohadasPage.map(product => (
             <ProductCard
               key={`${product.id}-${product.image}`}
               product={product}
@@ -235,7 +219,13 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
           ))}
 
         </div>
-        <div className="pagination">
+        
+        {/* OTROS */}
+
+        <h2 id="otros" className="section-title">
+          Otros Productos
+        </h2>
+          <div className="pagination">
           {[...Array(totalPagesOtros)].map((_, index) => (
             <button
               key={index}
@@ -246,6 +236,16 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
             </button>
           ))}
         </div>
+        <div className="catalog-grid">
+          {otrosPage.map(product => (
+            <ProductCard
+              key={`${product.id}-${product.image}`}
+              product={product}
+            />
+          ))}
+
+        </div>
+        
       </div>
 
     </section>
