@@ -15,7 +15,7 @@
   border-radius:16px;
   text-align:center;
   box-shadow:0 4px 15px rgba(0,0,0,.08);
-  transition:.3s;
+  transition:.3s ease;
 }
 
 .benefit-card:hover{
@@ -34,4 +34,104 @@
 .benefit-card p{
   color:#666;
   line-height:1.5;
+}
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px){
+
+  .why-choose-us{
+    padding:60px 0;
+  }
+
+  .benefits-grid{
+    gap:20px;
+  }
+
+  .benefit-card{
+    padding:25px;
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+  .why-choose-us{
+    padding:50px 0;
+  }
+
+  .benefits-grid{
+    grid-template-columns:1fr;
+    gap:16px;
+    margin-top:30px;
+  }
+
+  .benefit-card{
+    padding:20px;
+  }
+
+  .benefit-icon{
+    font-size:36px;
+  }
+
+  .benefit-card h3{
+    font-size:1.1rem;
+  }
+
+  .benefit-card p{
+    font-size:.95rem;
+  }
+
+}
+
+/* =========================
+   CELULARES PEQUEÑOS
+========================= */
+
+@media (max-width: 480px){
+
+  .why-choose-us{
+    padding:40px 0;
+  }
+
+  .benefit-card{
+    padding:18px;
+    border-radius:12px;
+  }
+
+  .benefit-icon{
+    font-size:32px;
+  }
+
+  .benefit-card h3{
+    font-size:1rem;
+  }
+
+  .benefit-card p{
+    font-size:.9rem;
+    line-height:1.4;
+  }
+
+}
+
+/* =========================
+   MONITORES GRANDES
+========================= */
+
+@media (min-width: 1400px){
+
+  .benefits-grid{
+    gap:30px;
+  }
+
+  .benefit-card{
+    padding:35px;
+    cursor:default;
+  }
+
 }

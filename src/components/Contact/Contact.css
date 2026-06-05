@@ -87,47 +87,82 @@
   transform:translateY(-2px);
 }
 
-/* TABLET */
+/* =========================
+   NOTEBOOK
+========================= */
 
-@media(max-width:992px){
+@media (max-width: 1200px){
 
-  .contact{
-    padding:60px 0;
+  .categories-grid{
+    grid-template-columns:repeat(2,1fr);
   }
 
 }
 
-/* CELULAR */
+/* =========================
+   TABLET
+========================= */
 
-@media(max-width:768px){
+@media (max-width: 992px){
 
-  .contact{
-    padding:50px 0;
+  .section-title{
+    font-size:2.1rem;
+    margin-bottom:40px;
   }
 
-  .contact-form{
-    padding:25px;
+  .category-card{
+    height:300px;
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+  .categories-grid{
+    grid-template-columns:1fr;
+    gap:15px;
+  }
+
+  .section-title{
+    font-size:1.8rem;
+    margin-bottom:30px;
+  }
+
+  .category-card{
+    height:250px;
+  }
+
+  .category-overlay{
+    padding:20px;
+  }
+
+  .category-overlay h3{
+    font-size:1.3rem;
+  }
+
+}
+
+/* =========================
+   CELULARES PEQUEÑOS
+========================= */
+
+@media (max-width: 480px){
+
+  .category-card{
+    height:220px;
     border-radius:15px;
   }
 
-  .contact-form input,
-  .contact-form textarea{
-    padding:14px;
-    font-size:.95rem;
+  .category-overlay{
+    padding:15px;
   }
 
-  .contact-form button{
-    padding:14px;
-  }
-
-}
-
-/* CELULAR PEQUEÑO */
-
-@media(max-width:480px){
-
-  .contact-form{
-    padding:20px;
+  .category-overlay h3{
+    font-size:1.1rem;
   }
 
 }

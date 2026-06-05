@@ -323,3 +323,92 @@
   }
 
 }
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px){
+
+  .header-content{
+    width:95%;
+    gap:15px;
+  }
+
+  .nav{
+    gap:18px;
+  }
+
+  .mega-menu-content{
+    width:95vw;
+    padding:20px;
+    gap:20px;
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+  .header{
+    position:sticky;
+    top:0;
+    z-index:9999;
+    background:white;
+  }
+
+  .header-content{
+    width:95%;
+    min-height:auto;
+    flex-direction:column;
+    padding:10px 0;
+  }
+
+  .logo-image{
+    width:80px;
+  }
+
+  .brand{
+    text-align:center;
+  }
+
+  .nav{
+    width:100%;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  .nav a,
+  .mega-menu span{
+    font-size:.85rem;
+  }
+
+  .mega-menu-content{
+    display:none !important;
+  }
+
+}
+
+/* =========================
+   CELULARES PEQUEÑOS
+========================= */
+
+@media (max-width: 480px){
+
+  .logo-image{
+    width:70px;
+  }
+
+  .nav{
+    gap:8px;
+  }
+
+  .nav a,
+  .mega-menu span{
+    font-size:.75rem;
+  }
+
+}

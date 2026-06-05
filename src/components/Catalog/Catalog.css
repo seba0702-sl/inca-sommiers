@@ -12,11 +12,27 @@
   margin-top:60px;
 }
 
-/* TABLET */
+
+/* =========================
+   NOTEBOOK / TABLET GRANDE
+========================= */
+
+@media(max-width:1200px){
+
+  .catalog-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+}
+
+/* =========================
+   TABLET
+========================= */
 
 @media(max-width:992px){
 
   .catalog-grid{
+    grid-template-columns:repeat(2,1fr);
     gap:20px;
   }
 
@@ -26,13 +42,15 @@
 
 }
 
-/* CELULAR */
+/* =========================
+   MOBILE
+========================= */
 
 @media(max-width:768px){
 
   .catalog-grid{
-    grid-template-columns:1fr;
-    gap:20px;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
   }
 
   .section-title{
@@ -43,42 +61,18 @@
 
 }
 
-/* CELULAR CHICO */
+/* =========================
+   CELULAR PEQUEÑO
+========================= */
 
 @media(max-width:480px){
+
+  .catalog-grid{
+    grid-template-columns:1fr;
+  }
 
   .section-title{
     font-size:1.5rem;
   }
 
-}
-#colchones,
-#blanqueria,
-#almohadas,
-#otros{
-  scroll-margin-top:140px;
-}
-.pagination{
-  display:flex;
-  justify-content:center;
-  gap:8px;
-  margin:30px 0 60px;
-}
-
-.pagination button{
-  width:40px;
-  height:40px;
-  border:none;
-  border-radius:8px;
-  cursor:pointer;
-  transition:.2s;
-}
-
-.pagination button:hover{
-  transform:translateY(-2px);
-}
-
-.active-page{
-  background:#000;
-  color:#fff;
 }

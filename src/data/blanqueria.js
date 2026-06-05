@@ -44,7 +44,20 @@ export const blanqueria = [
     description: "Pack x 3",
     image: "/images/decor/cocina/repasadoresCol.png"
   },
-
+  {
+    id: 8,
+    name: "Acolchados",
+    category: "dormitorio",
+    description: "Pack x 3",
+    image: "/images/decor/cocina/acolchados.png"
+  },
+  {
+    id: 9,
+    name: "sabanas",
+    category: "dormitorio",
+    description: "Sabanas, variedad de estilos y tamaños",
+    image: "/images/decor/dormitorio/sabanas.png"
+  },
   
 
 ]

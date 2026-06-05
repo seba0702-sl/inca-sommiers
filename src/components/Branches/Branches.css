@@ -19,7 +19,7 @@
 
   box-shadow:0 4px 12px rgba(0,0,0,.08);
 
-  transition:.3s;
+  transition:.3s ease;
 }
 
 .branch-card:hover{
@@ -64,6 +64,55 @@
 
   .branch-card p{
     font-size:.95rem;
+  }
+
+}
+/* =========================
+   CELULARES PEQUEÑOS
+========================= */
+
+@media (max-width: 480px){
+
+  .branches{
+    padding:40px 0;
+  }
+
+  .branches-grid{
+    gap:15px;
+  }
+
+  .branch-card{
+    padding:20px;
+    border-radius:15px;
+  }
+
+  .branch-card h3{
+    font-size:1.1rem;
+  }
+
+  .branch-card p{
+    font-size:.9rem;
+    line-height:1.5;
+  }
+
+}
+
+/* =========================
+   MONITORES GRANDES
+========================= */
+
+@media (min-width: 1400px){
+
+  .branches-grid{
+    gap:30px;
+  }
+
+  .branch-card{
+    padding:35px;
+  }
+
+  .branch-card h3{
+    font-size:1.7rem;
   }
 
 }
