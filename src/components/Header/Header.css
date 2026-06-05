@@ -403,3 +403,71 @@
   }
 
 }
+/* MENU CELULAR */
+
+.mobile-products{
+  display:none;
+}
+
+.mobile-products-btn{
+
+  width:100%;
+
+  border:none;
+
+  background:#3697b3;
+
+  color:white;
+
+  padding:12px;
+
+  border-radius:10px;
+
+  font-weight:600;
+
+  cursor:pointer;
+}
+
+.mobile-products-menu{
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:8px;
+
+  background:white;
+
+  padding:15px;
+
+  border-radius:12px;
+
+  margin-top:10px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.mobile-products-menu strong{
+  margin-top:10px;
+}
+
+.mobile-products-menu a{
+  color:#333;
+}
+@media(max-width:768px){
+
+  .mega-menu{
+    display:none;
+  }
+
+  .mobile-products{
+    display:block;
+    width:100%;
+  }
+
+  .nav{
+    flex-direction:column;
+    align-items:center;
+  }
+
+}

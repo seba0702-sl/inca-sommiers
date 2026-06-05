@@ -1,168 +1,270 @@
+import { useState } from "react"
 import "./Header.css"
 
-export default function Header({
-  setBrandFilter
-}) {
+export default function Header({ setBrandFilter }) {
+
+  const [mobileProducts, setMobileProducts] = useState(false)
+
   return (
     <header className="header">
       <div className="container header-content">
-      <div className="brand">
+        <div className="brand">
 
-  <img
-    src="/images/logo/logo2.jpeg"
-    alt="Inca Sommiers"
-    className="logo-image"
-  />
+          <img
+            src="/images/logo/logo2.jpeg"
+            alt="Inca Sommiers"
+            className="logo-image"
+          />
 
- 
 
-</div>
+
+        </div>
 
         <nav className="nav">
 
-  <a href="#hero">Inicio</a>
+          <a href="#hero">Inicio</a>
 
-  <div className="mega-menu">
+          <div className="mega-menu">
 
-    <span>
-      Productos ▾
-    </span>
+            <span>
+              Productos ▾
+            </span>
 
-    <div className="mega-menu-content">
+            <div className="mega-menu-content">
 
-      {/* COLCHONES */}
+              {/* COLCHONES */}
 
-      <div className="mega-column">
+              <div className="mega-column">
 
-        <h4>Colchones</h4>
+                <h4>Colchones</h4>
 
-        <a
-  href="#colchones"
-  onClick={() => setBrandFilter("Cannon")}
->
-  Cannon
-</a>
+                <a
+                  href="#colchones"
+                  onClick={() => setBrandFilter("Cannon")}
+                >
+                  Cannon
+                </a>
 
-<a
-  href="#colchones"
-  onClick={() => setBrandFilter("Deseo")}
->
-  Deseo
-</a>
+                <a
+                  href="#colchones"
+                  onClick={() => setBrandFilter("Deseo")}
+                >
+                  Deseo
+                </a>
 
-<a
-  href="#colchones"
-  onClick={() => setBrandFilter("Gani")}
->
-  Gani
-</a>
+                <a
+                  href="#colchones"
+                  onClick={() => setBrandFilter("Gani")}
+                >
+                  Gani
+                </a>
 
-<a
-  href="#colchones"
-  onClick={() => setBrandFilter("Suavestar")}
->
-  Suavestar
-</a>
-<a
-  href="#colchones"
-  onClick={() => setBrandFilter("Suavegom")}
->
-  Suavegom
-</a>
-<a
-  href="#colchones"
-  onClick={() => setBrandFilter("Piero")}
->
-  Piero
-</a>
-<a
-  href="#colchones"
-  onClick={() => setBrandFilter("all")}
->
-  Todos los colchones
-</a>
+                <a
+                  href="#colchones"
+                  onClick={() => setBrandFilter("Suavestar")}
+                >
+                  Suavestar
+                </a>
+                <a
+                  href="#colchones"
+                  onClick={() => setBrandFilter("Suavegom")}
+                >
+                  Suavegom
+                </a>
+                <a
+                  href="#colchones"
+                  onClick={() => setBrandFilter("Piero")}
+                >
+                  Piero
+                </a>
+                <a
+                  href="#colchones"
+                  onClick={() => setBrandFilter("all")}
+                >
+                  Todos los colchones
+                </a>
 
-      </div>
+              </div>
 
-      {/* ALMOHADAS */}
+              {/* ALMOHADAS */}
 
-      <div className="mega-column">
+              <div className="mega-column">
 
-        <h4>Almohadas</h4>
+                <h4>Almohadas</h4>
 
-        <a href="#almohadas">
-          Almohadas
-        </a>
+                <a href="#almohadas">
+                  Almohadas
+                </a>
 
-      </div>
+              </div>
 
-      {/* BLANQUERIA */}
+              {/* BLANQUERIA */}
 
-      <div className="mega-column">
+              <div className="mega-column">
 
-        <h4>Blanquería</h4>
+                <h4>Blanquería</h4>
 
-        <a href="#blanqueria">
-          Baño
-        </a>
+                <a href="#blanqueria">
+                  Baño
+                </a>
 
-        <a href="#blanqueria">
-          Dormitorio
-        </a>
+                <a href="#blanqueria">
+                  Dormitorio
+                </a>
 
-        <a href="#blanqueria">
-          Cocina
-        </a>
+                <a href="#blanqueria">
+                  Cocina
+                </a>
 
-        <a href="#blanqueria">
-          Comedor
-        </a>
+                <a href="#blanqueria">
+                  Comedor
+                </a>
 
-      </div>
+              </div>
 
-      {/* OTROS */}
+              {/* OTROS */}
 
-      <div className="mega-column">
+              <div className="mega-column">
 
-        <h4>Otros</h4>
+                <h4>Otros</h4>
 
-        <a href="#otros">
-          Protectores
-        </a>
+                <a href="#otros">
+                  Protectores
+                </a>
 
-        <a href="#otros">
-          Respaldos
-        </a>
+                <a href="#otros">
+                  Respaldos
+                </a>
 
-        <a href="#otros">
-          Accesorios
-        </a>
+                <a href="#otros">
+                  Accesorios
+                </a>
 
-      </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div className="mobile-products">
+
+  <button
+    className="mobile-products-btn"
+    onClick={() =>
+      setMobileProducts(!mobileProducts)
+    }
+  >
+    Productos ▾
+  </button>
+
+  {mobileProducts && (
+
+    <div className="mobile-products-menu">
+
+      <strong>Colchones</strong>
+
+      <a
+        href="#colchones"
+        onClick={() => setBrandFilter("Cannon")}
+      >
+        Cannon
+      </a>
+
+      <a
+        href="#colchones"
+        onClick={() => setBrandFilter("Deseo")}
+      >
+        Deseo
+      </a>
+
+      <a
+        href="#colchones"
+        onClick={() => setBrandFilter("Gani")}
+      >
+        Gani
+      </a>
+
+      <a
+        href="#colchones"
+        onClick={() => setBrandFilter("Suavestar")}
+      >
+        Suavestar
+      </a>
+
+      <a
+        href="#colchones"
+        onClick={() => setBrandFilter("Piero")}
+      >
+        Piero
+      </a>
+
+      <hr />
+
+      <strong>Almohadas</strong>
+
+      <a href="#almohadas">
+        Todas las almohadas
+      </a>
+
+      <hr />
+
+      <strong>Blanquería</strong>
+
+      <a href="#blanqueria">
+        Baño
+      </a>
+
+      <a href="#blanqueria">
+        Dormitorio
+      </a>
+
+      <a href="#blanqueria">
+        Cocina
+      </a>
+
+      <a href="#blanqueria">
+        Comedor
+      </a>
+
+      <hr />
+
+      <strong>Otros</strong>
+
+      <a href="#otros">
+        Protectores
+      </a>
+
+      <a href="#otros">
+        Respaldos
+      </a>
+
+      <a href="#otros">
+        Accesorios
+      </a>
 
     </div>
 
-  </div>
+  )}
 
-  <a href="#about">
-    Nosotros
-  </a>
-    <a href="#beneficios">
-    Beneficios
-  </a>
-  <a href="#branches">
-    Sucursal
-  </a>
+</div>
+          <a href="#about">
+            Nosotros
+          </a>
+          <a href="#beneficios">
+            Beneficios
+          </a>
+          <a href="#branches">
+            Sucursal
+          </a>
 
-  <a href="#ubicacion">
-    Dónde Estamos
-  </a>
+          <a href="#ubicacion">
+            Dónde Estamos
+          </a>
 
-  <a href="#contact">
-    Contacto
-  </a>
+          <a href="#contact">
+            Contacto
+          </a>
 
-</nav>
+        </nav>
       </div>
     </header>
   )
