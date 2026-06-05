@@ -467,7 +467,7 @@ export const colchones = [
     image: "/images/colchones/suave1.jpg",
 
     pdf: "/pdf/suavestar/suave1.pdf"
-  }
+  },
   {
     id: 28,
     brand: "Suavestar",
@@ -483,7 +483,7 @@ export const colchones = [
     image: "/images/colchones/suave2.jpg",
 
     pdf: "/pdf/suavestar/suave2.pdf"
-  }
+  },
   {
     id: 29,
     brand: "Suavestar",
