@@ -235,28 +235,17 @@
 }
 
 .mega-menu-content{
-
   position:absolute;
-
   top:100%;
   left:50%;
-
   transform:translateX(-50%);
-
   width:900px;
-
   background:white;
-
   border-radius:20px;
-
   padding:30px;
-
   display:none;
-
   gap:40px;
-
   box-shadow:0 15px 40px rgba(0,0,0,.12);
-
   z-index:999;
 }
 
@@ -319,7 +308,11 @@
 @media(max-width:768px){
 
   .mega-menu-content{
-    display:none !important;
+    width:95vw;
+    left:50%;
+    transform:translateX(-50%);
+    flex-direction:column;
+    gap:15px;
   }
 
 }
@@ -386,9 +379,7 @@
     font-size:.85rem;
   }
 
-  .mega-menu-content{
-    display:none !important;
-  }
+  
 
 }
 
