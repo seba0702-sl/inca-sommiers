@@ -11,6 +11,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Cannon/exclusive.jpg",
 
@@ -27,6 +28,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Cannon/exclusivePillowTop.jpg",
 
@@ -43,6 +45,7 @@ export const colchones = [
     sizes: [
      "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Cannon/exclusiveEuroPillow.png",
 
@@ -59,6 +62,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Cannon/especialLujo.jpg",
 
@@ -75,6 +79,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Cannon/princess.jpg",
 
@@ -91,6 +96,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Cannon/doralSinPillow.jpg",
 
@@ -107,6 +113,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Cannon/doralConPillow.jpg",
 
@@ -126,6 +133,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Gani/ganiSilver1p.jpg",
 
@@ -143,6 +151,7 @@ export const colchones = [
     sizes: [
      "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Gani/ganiSilver2p.jpg",
 
@@ -160,6 +169,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Deseo/deseoInsigna.jpeg",
 
@@ -176,6 +186,7 @@ export const colchones = [
     sizes: [
      "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Deseo/deseoBriccio.jpeg",
 
@@ -192,6 +203,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Deseo/deseoCoral.jpeg",
 
@@ -208,6 +220,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Deseo/deseoTopaz.jpeg",
 
@@ -224,6 +237,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Deseo/deseoDiaNegro.jpeg",
 
@@ -240,6 +254,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Deseo/deseoDiaBlanco.jpeg",
 
@@ -256,6 +271,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Deseo/deseosueno.jpeg",
 
@@ -274,6 +290,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Suavegom/SuaMerit.png",
 
@@ -290,6 +307,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Suavegom/SuaMeritPT.png",
 
@@ -306,6 +324,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Suavegom/SuaEsplendid.png",
 
@@ -322,6 +341,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Piero/CoronaR.jpg",
 
@@ -338,6 +358,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Piero/Foam.jpg",
 
@@ -354,6 +375,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Piero/Nova.png",
 
@@ -370,6 +392,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Piero/Spring.jpg",
 
@@ -386,6 +409,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Piero/Bahia.jpg",
 
@@ -402,6 +426,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Piero/Fleur.jpg",
 
@@ -418,6 +443,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/Piero/Body.jpg",
 
@@ -436,6 +462,7 @@ export const colchones = [
     sizes: [
       "Todas las medidas",
     ],
+    category: "colchones",
 
     image: "/images/colchones/cannon-exclusive.jpg",
 

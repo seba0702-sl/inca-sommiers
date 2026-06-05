@@ -1,5 +1,4 @@
-
-
+import { useState } from "react"
 import Header from "../components/Header/Header"
 import Hero from "../components/Hero/Hero"
 import Brands from "../components/Brands/Brands"
@@ -13,12 +12,12 @@ import Contact from "../components/Contact/Contact"
 import Footer from "../components/Footer/Footer"
 import FloatingWhatsApp from "../components/FloatingWhatsApp/FloatingWhatsApp"
 
-import { useState } from "react"
+
 
 export default function Home() {
 
   const [brandFilter, setBrandFilter] = useState("all")
-
+  const [search, setSearch] = useState("")
   return (
     <>
       <Header setBrandFilter={setBrandFilter} />
@@ -32,6 +31,8 @@ export default function Home() {
       <Catalog
         brandFilter={brandFilter}
         setBrandFilter={setBrandFilter}
+        search={search}
+        setSearch={setSearch}
       />
 
       
