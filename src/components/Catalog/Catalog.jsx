@@ -122,7 +122,17 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
 
         {/* FILTRO MEDIDAS */}
 
-
+        <div className="pagination">
+          {[...Array(totalPagesColchones)].map((_, index) => (
+            <button
+              key={index}
+              className={pageColchones === index + 1 ? "active-page" : ""}
+              onClick={() => setPageColchones(index + 1)}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
         <div className="catalog-grid">
 
           {filteredColchones.length > 0 ? (
@@ -146,17 +156,7 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
           }
 
         </div>
-        <div className="pagination">
-          {[...Array(totalPagesColchones)].map((_, index) => (
-            <button
-              key={index}
-              className={pageColchones === index + 1 ? "active-page" : ""}
-              onClick={() => setPageColchones(index + 1)}
-            >
-              {index + 1}
-            </button>
-          ))}
-        </div>
+        
         {/* BLANQUERIA */}
 
         <h2 id="blanqueria" className="section-title">
