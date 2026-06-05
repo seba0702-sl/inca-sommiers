@@ -453,7 +453,7 @@ export const colchones = [
 
   //Suavestar
   {
-    id: 30,
+    id: 27,
     brand: "Suavestar",
     logo: "/images/marcas/suavestar.png",
     model: "Insignia",
@@ -464,9 +464,41 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/cannon-exclusive.jpg",
+    image: "/images/colchones/suave1.jpg",
 
-    pdf: "/pdf/suavestar/cannon-exclusive.pdf"
+    pdf: "/pdf/suavestar/suave1.pdf"
+  }
+  {
+    id: 28,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Insignia",
+    description: "Espuma premium",
+    type:"Espuma",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/suave2.jpg",
+
+    pdf: "/pdf/suavestar/suave2.pdf"
+  }
+  {
+    id: 29,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Insignia",
+    description: "Espuma premium",
+    type:"Espuma",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/susve3.jpg",
+
+    pdf: "/pdf/suavestar/suave3.pdf"
   }
 ]
 
