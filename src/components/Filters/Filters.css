@@ -85,3 +85,38 @@
   }
 
 }
+/* MOBILE SELECT */
+
+.mobile-filters{
+  display:none;
+}
+
+.mobile-filters select{
+
+  width:100%;
+
+  padding:12px;
+
+  border:1px solid #ddd;
+
+  border-radius:10px;
+
+  background:white;
+
+  font-size:1rem;
+}
+
+/* TABLET Y CELULAR */
+
+@media(max-width:768px){
+
+  .desktop-filters{
+    display:none;
+  }
+
+  .mobile-filters{
+    display:block;
+    margin-bottom:20px;
+  }
+
+}

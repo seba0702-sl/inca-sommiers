@@ -7,26 +7,56 @@ export default function Filters({
 }) {
 
   return (
+    <>
 
-    <div className="filters">
+      {/* DESKTOP */}
 
-      {options.map(option => (
+      <div className="filters desktop-filters">
 
-        <button
-          key={option.value}
-          className={
-            value === option.value
-              ? "active"
-              : ""
+        {options.map(option => (
+
+          <button
+            key={option.value}
+            className={
+              value === option.value
+                ? "active"
+                : ""
+            }
+            onClick={() => onChange(option.value)}
+          >
+            {option.label}
+          </button>
+
+        ))}
+
+      </div>
+
+      {/* MOBILE */}
+
+      <div className="mobile-filters">
+
+        <select
+          value={value}
+          onChange={(e) =>
+            onChange(e.target.value)
           }
-          onClick={() => onChange(option.value)}
         >
-          {option.label}
-        </button>
 
-      ))}
+          {options.map(option => (
 
-    </div>
+            <option
+              key={option.value}
+              value={option.value}
+            >
+              {option.label}
+            </option>
 
+          ))}
+
+        </select>
+
+      </div>
+
+    </>
   )
 }

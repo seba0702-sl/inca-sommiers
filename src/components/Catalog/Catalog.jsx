@@ -1,5 +1,5 @@
 import "./Catalog.css"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { colchones } from "../../data/colchones"
 import { blanqueria } from "../../data/blanqueria"
 import { almohadas } from "../../data/almohadas"
@@ -15,7 +15,13 @@ export default function Catalog({ brandFilter, setBrandFilter }) {
   const [pageBlanqueria, setPageBlanqueria] = useState(1)
   const [pageAlmohadas, setPageAlmohadas] = useState(1)
   const [pageOtros, setPageOtros] = useState(1)
+  useEffect(() => {
+    setPageColchones(1)
+  }, [brandFilter, typeFilter, colchonFilter])
 
+  useEffect(() => {
+    setPageBlanqueria(1)
+  }, [blanqueriaFilter])
   const ITEMS_PER_PAGE = 4
 
   const filteredColchones = colchones.filter(product => {
