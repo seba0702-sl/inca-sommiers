@@ -456,22 +456,22 @@ export const colchones = [
     id: 27,
     brand: "Suavestar",
     logo: "/images/marcas/suavestar.png",
-    model: "Insignia",
-    description: "Espuma premium",
+    model: "Lyon",
+    description: "Colchón de espuma muy versátil y con la mejor relación entre calidad y funcionalidad para todos los días.",
     type:"Espuma",
     sizes: [
       "Todas las medidas",
     ],
     category: "colchones",
 
-    image: "/images/colchones/suave1.jpg",
+    image: "/images/colchones/Suavestar/suaLyon.jpg",
 
-    pdf: "/pdf/suavestar/suave1.pdf"
+    pdf: "/pdf/Suavestar/suaLyon.pdf"
   },
   {
     id: 28,
     brand: "Suavestar",
-    logo: "/images/marcas/suavestar.png",
+    logo: "//images/colchones/Suavestar/suaLyon.jpg",
     model: "Insignia",
     description: "Espuma premium",
     type:"Espuma",
@@ -482,12 +482,12 @@ export const colchones = [
 
     image: "/images/colchones/suave2.jpg",
 
-    pdf: "/pdf/suavestar/suave2.pdf"
+    pdf: "/pdf/Suavestar/suave2.pdf"
   },
   {
     id: 29,
     brand: "Suavestar",
-    logo: "/images/marcas/suavestar.png",
+    logo: "/images/colchones/Suavestar/suaLyon.jpg",
     model: "Insignia",
     description: "Espuma premium",
     type:"Espuma",
@@ -498,7 +498,7 @@ export const colchones = [
 
     image: "/images/colchones/susve3.jpg",
 
-    pdf: "/pdf/suavestar/suave3.pdf"
+    pdf: "/pdf/Suavestar/suave3.pdf"
   }
 ]
 
