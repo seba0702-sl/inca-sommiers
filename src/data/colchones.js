@@ -464,7 +464,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/Cannon/Lyon.jpg",
+    image: "/images/colchones/Cannon/Lyon.png",
 
     pdf: "/pdf/Cannon/Lyon.pdf"
   },
