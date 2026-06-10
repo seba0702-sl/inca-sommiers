@@ -592,7 +592,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/Suavestar/rockstarEP.png",
+    image: "/images/colchones/Suavestar/rockstarEP.jpg",
 
     pdf: "/pdf/Suavestar/RockStarEP.pdf"
   },
@@ -608,7 +608,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-  image: "/images/colchones/Suavestar/superstarEP.png",
+  image: "/images/colchones/Suavestar/superstarEP.jpg",
 
     pdf: "/pdf/Suavestar/SupertarEP.pdf"
   },
