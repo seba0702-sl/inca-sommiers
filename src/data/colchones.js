@@ -608,7 +608,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-  image: "/images/colchones/Suavestar/superstarEP.jpg",
+  image: "/images/colchones/Suavestar/superstarEP.jpeg",
 
     pdf: "/pdf/Suavestar/SupertarEP.pdf"
   },
