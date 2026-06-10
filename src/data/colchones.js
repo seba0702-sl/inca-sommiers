@@ -487,7 +487,7 @@ export const colchones = [
   {
     id: 29,
     brand: "Suavestar",
-    logo: "/images/marcas/Suavestar/suavestar.png",
+    logo: "/images/marcas/suavestar.png",
     model: "Boreal Pillow Top",
     description: "Estructura de resorte continuo + doble manta de espuma de ambos lados + doble Pillow Top",
     type:"Resortes",
@@ -496,14 +496,14 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/BorealPT.png",
+    image: "/images/colchones/Suavestar/BorealPT.png",
 
     pdf: "/pdf/Suavestar/BorealPT.pdf"
   },
   {
     id: 30,
     brand: "Suavestar",
-    logo: "/images/marcas/Suavestar/suavestar.png",
+    logo: "/images/marcas/suavestar.png",
     model: "Centuria EuroPillow",
     description: "Núcleo de espuma de alta densidad + pillow",
     type:"Espuma",
