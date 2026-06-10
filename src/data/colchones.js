@@ -472,7 +472,7 @@ export const colchones = [
     id: 28,
     brand: "Suavestar",
     logo: "/images/marcas/suavestar.png",
-    model: "Insignia",
+    model: "Atmosphere",
     description: "Placa de espuma de alta densidad + doble capa de espuma viscoelástica",
     type:"Espuma",
     sizes: [
@@ -480,14 +480,14 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/atmos.jpg",
+    image: "/images/colchones/Suavestar/atmos.jpg",
 
     pdf: "/pdf/Suavestar/Atmos.pdf"
   },
   {
     id: 29,
     brand: "Suavestar",
-    logo: "/images/marcas/suavestar.png",
+    logo: "/images/marcas/Suavestar/suavestar.png",
     model: "Boreal Pillow Top",
     description: "Estructura de resorte continuo + doble manta de espuma de ambos lados + doble Pillow Top",
     type:"Resortes",
@@ -503,7 +503,7 @@ export const colchones = [
   {
     id: 30,
     brand: "Suavestar",
-    logo: "/images/marcas/suavestar.png",
+    logo: "/images/marcas/Suavestar/suavestar.png",
     model: "Centuria EuroPillow",
     description: "Núcleo de espuma de alta densidad + pillow",
     type:"Espuma",
@@ -512,7 +512,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/centuriaEP.jpg",
+    image: "/images/colchones/Suavestar/centuriaEP.jpg",
 
     pdf: "/pdf/Suavestar/CenturiaEP.pdf"
   },
@@ -528,7 +528,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/floustar.png",
+    image: "/images/colchones/Suavestar/floustar.png",
 
     pdf: "/pdf/Suavestar/Floustar.pdf"
   },
@@ -544,7 +544,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/Lujo20.png",
+    image: "/images/colchones/Suavestar/Lujo20.png",
 
     pdf: "/pdf/Suavestar/Lujo20.pdf"
   },
@@ -560,7 +560,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/perseus.png",
+    image: "/images/colchones/Suavestar/perseus.png",
 
     pdf: "/pdf/Suavestar/Perseus.pdf"
   },
@@ -576,7 +576,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/relax.png",
+    image: "/images/colchones/Suavestar/relax.png",
 
     pdf: "/pdf/Suavestar/Relax.pdf"
   },
@@ -592,7 +592,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/rockstarEP.png",
+    image: "/images/colchones/Suavestar/rockstarEP.png",
 
     pdf: "/pdf/Suavestar/RockStarEP.pdf"
   },
@@ -608,7 +608,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-  image: "/images/colchones/superstarEP.png",
+  image: "/images/colchones/Suavestar/superstarEP.png",
 
     pdf: "/pdf/Suavestar/SupertarEP.pdf"
   },
@@ -624,7 +624,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-  image: "/images/colchones/Boreal.jpg",
+  image: "/images/colchones/Suavestar/Boreal.jpg",
 
     pdf: "/pdf/Suavestar/Boreal.pdf"
   },
@@ -640,7 +640,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-  image: "/images/colchones/Zenon1p.png",
+  image: "/images/colchones/Suavestar/Zenon1p.png",
 
     pdf: "/pdf/Suavestar/Zenon.pdf"
   },
@@ -657,7 +657,7 @@ export const colchones = [
     ],
     category: "colchones",
 
-  image: "/images/colchones/ZenonBaby.png",
+  image: "/images/colchones/Suavestar/ZenonBaby.png",
 
     pdf: "/pdf/Suavestar/ZenonBaby.pdf"
   },
