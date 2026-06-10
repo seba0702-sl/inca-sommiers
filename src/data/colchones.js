@@ -454,8 +454,8 @@ export const colchones = [
   //Suavestar
   {
     id: 27,
-    brand: "Suavestar",
-    logo: "/images/marcas/suavestar.png",
+    brand: "Cannon",
+    logo: "/images/marcas/cannon.png",
     model: "Lyon",
     description: "Colchón de espuma muy versátil y con la mejor relación entre calidad y funcionalidad para todos los días.",
     type:"Espuma",
@@ -464,9 +464,9 @@ export const colchones = [
     ],
     category: "colchones",
 
-    image: "/images/colchones/Suavestar/suaLyon.jpg",
+    image: "/images/colchones/Cannon/Lyon.jpg",
 
-    pdf: "/pdf/Suavestar/suaLyon.pdf"
+    pdf: "/pdf/Cannon/Lyon.pdf"
   },
   {
     id: 28,
