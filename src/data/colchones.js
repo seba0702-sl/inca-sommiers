@@ -471,34 +471,195 @@ export const colchones = [
   {
     id: 28,
     brand: "Suavestar",
-    logo: "//images/colchones/Suavestar/suaLyon.jpg",
+    logo: "/images/marcas/suavestar.png",
     model: "Insignia",
-    description: "Espuma premium",
+    description: "Placa de espuma de alta densidad + doble capa de espuma viscoelástica",
     type:"Espuma",
     sizes: [
       "Todas las medidas",
     ],
     category: "colchones",
 
-    image: "/images/colchones/suave2.jpg",
+    image: "/images/colchones/atmos.jpg",
 
-    pdf: "/pdf/Suavestar/suave2.pdf"
+    pdf: "/pdf/Suavestar/Atmos.pdf"
   },
   {
     id: 29,
     brand: "Suavestar",
-    logo: "/images/colchones/Suavestar/suaLyon.jpg",
-    model: "Insignia",
-    description: "Espuma premium",
+    logo: "/images/marcas/suavestar.png",
+    model: "Boreal Pillow Top",
+    description: "Estructura de resorte continuo + doble manta de espuma de ambos lados + doble Pillow Top",
+    type:"Resortes",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/BorealPT.png",
+
+    pdf: "/pdf/Suavestar/BorealPT.pdf"
+  },
+  {
+    id: 30,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Centuria EuroPillow",
+    description: "Núcleo de espuma de alta densidad + pillow",
     type:"Espuma",
     sizes: [
       "Todas las medidas",
     ],
     category: "colchones",
 
-    image: "/images/colchones/susve3.jpg",
+    image: "/images/colchones/centuriaEP.jpg",
 
-    pdf: "/pdf/Suavestar/suave3.pdf"
-  }
+    pdf: "/pdf/Suavestar/CenturiaEP.pdf"
+  },
+  {
+    id: 31,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "FlouStar",
+    description: "Estructura de resortes continuos + manta de espuma de media densidad de ambos lados",
+    type:"Resortes",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/floustar.png",
+
+    pdf: "/pdf/Suavestar/Floustar.pdf"
+  },
+  {
+    id: 32,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Lujo 20",
+    description: "Espuma alta densidad",
+    type:"Espuma",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/Lujo20.png",
+
+    pdf: "/pdf/Suavestar/Lujo20.pdf"
+  },
+  {
+    id: 33,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Perseus",
+    description: "En la búsqueda incansable de un descanso que no solo repare el cuerpo, sino que revitalice el alma, Suavestar presenta su obra maestra: el colchón Perseus.",
+    type:"Resortes",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/perseus.png",
+
+    pdf: "/pdf/Suavestar/Perseus.pdf"
+  },
+    {
+    id: 34,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Relax",
+    description: "Placa de espuma de alta densidad",
+    type:"Espuma",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/relax.png",
+
+    pdf: "/pdf/Suavestar/Relax.pdf"
+  },
+    {
+    id: 35,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "RockStar EuroPillow",
+    type:"Espuma",
+    description: "laca de espuma de alta densidad + Europillow de ambos lados",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+    image: "/images/colchones/rockstarEP.png",
+
+    pdf: "/pdf/Suavestar/RockStarEP.pdf"
+  },
+  {
+    id: 36,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "SuperStar EuroPillow",
+    type:"Resortes",
+    description: "Resortes Maxspring Sistema exclusivo de Suavestar compuesto por resortes continuos de acero de altísima resistencia que actúan como una unidad estructural, convirtiéndola en la estructura de resortes más firme del mercado. ",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+  image: "/images/colchones/superstarEP.png",
+
+    pdf: "/pdf/Suavestar/SupertarEP.pdf"
+  },
+   {
+    id: 37,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Boreal Bamboo",
+    type:"Resortes",
+    description: "Estructura de resorte continuo + doble manta de espuma de ambos lados.",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+  image: "/images/colchones/Boreal.jpg",
+
+    pdf: "/pdf/Suavestar/Boreal.pdf"
+  },
+  {
+    id: 38,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Granja Zenon 1 plaza",
+    type:"Espuma",
+    description: "Diseño divertido con personajes de La Granja de Zenón.",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+  image: "/images/colchones/Zenon1p.png",
+
+    pdf: "/pdf/Suavestar/Zenon.pdf"
+  },
+  
+    {
+    id: 39,
+    brand: "Suavestar",
+    logo: "/images/marcas/suavestar.png",
+    model: "Granja Zenon Baby",
+    type:"Espuma",
+    description: "Funda lavable Cuenta con una funda de tela de algodón con cierre perimetral, que permite que sea fácilmente extraíble para su lavado a mano o en lavarropas.",
+    sizes: [
+      "Todas las medidas",
+    ],
+    category: "colchones",
+
+  image: "/images/colchones/ZenonBaby.png",
+
+    pdf: "/pdf/Suavestar/ZenonBaby.pdf"
+  },
 ]
 
