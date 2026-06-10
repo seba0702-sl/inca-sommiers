@@ -196,6 +196,12 @@ export default function Header({ setBrandFilter }) {
       >
         Piero
       </a>
+      <a
+        href="#colchones"
+        onClick={() => setBrandFilter("Suavegom")}
+      >
+        Suavegom
+      </a>
 
       <hr />
 
