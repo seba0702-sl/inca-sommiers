@@ -10,6 +10,7 @@ import Branches from "../components/Branches/Branches"
 import Location from "../components/Location/Location"
 import Contact from "../components/Contact/Contact"
 import Footer from "../components/Footer/Footer"
+import ScrollTop from "../components/ScrollTop/ScrollTop"
 import FloatingWhatsApp from "../components/FloatingWhatsApp/FloatingWhatsApp"
 
 
@@ -39,6 +40,8 @@ export default function Home() {
       <Branches />
       <Location />
       <Contact />
+      <ScrollTop />
+      <FloatingWhatsApp />
       <Footer />
     </>
   )
